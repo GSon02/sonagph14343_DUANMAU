@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_phieumuon">
+    <fragment
+        android:id="@+id/nav_phieumuon"
+        android:name="com.example.sonagph14343_duanmau.ui.QLPM.QLPMFragment"
+        android:label="Quản lý phiếu mượn"
+        tools:layout="@layout/fragment_qlpm" />
+    <fragment
+        android:id="@+id/nav_loaisach"
+        android:name="com.example.sonagph14343_duanmau.ui.QLLS.QLLSFragment"
+        android:label="Quản lý loại sách"
+        tools:layout="@layout/fragment_qlls" />
+    <fragment
+        android:id="@+id/nav_sach"
+        android:name="com.example.sonagph14343_duanmau.ui.QLS.QLSFragment"
+        android:label="Quản lý sách"
+        tools:layout="@layout/fragment_qls" />
+    <fragment
+        android:id="@+id/nav_qltv"
+        android:name="com.example.sonagph14343_duanmau.ui.QLTV.QLTVFragment"
+        android:label="Quản lý Thành Viên"
+        tools:layout="@layout/fragment_qltv" />
+</navigation>
